@@ -16,7 +16,7 @@ def game_setup(num_of_players):
     trains.append(public_train)
 
     #Give Players Dominos
-    for i in range(12):
+    for i in range(15):
         for player in players:
             player.remainder.append(dominos.pop_domino())
 
